@@ -12,7 +12,7 @@ nav{
 	color: white;
 	font-size: 28px;
 	line-height: 60px;
-	padding-left: 194px;
+	padding-left: 354px;
 	float: left;
 }
 
@@ -25,8 +25,34 @@ nav{
 	float: left;
 	line-height: 60px;
 	color: white;
-	margin: 40px;
 	font-size: 16px;
+	margin: 0px 20px 0px 20px;
 	text-transform: uppercase;
+}
+
+.main {
+	width: 100%;
+	height: calc(100% - 60px);
+	background: url(../img/boy.png) 90% 100%/auto 85% no-repeat , url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.title_container {
+	float: left;
+	margin: 290px 0px 0px 265px;
+	color: #2c384a;
+}
+
+.title__container h1{ 
+	text-align: center;
+	padding: 300px 200px 300px 0px;
+	font-size: 50px;	
+	font-weight: bold;
+	color: #2c384a;
+}
+
+.title__container h4{
+	margin-top: 40px;
+	font-size: 25px;
+	color: #79818d;
 }
 
