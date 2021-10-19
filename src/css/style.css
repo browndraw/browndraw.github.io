@@ -44,15 +44,27 @@ nav{
 
 .title__container h1{ 
 	text-align: center;
-	padding: 300px 200px 300px 0px;
+	padding: 300px 200px 0px 200px;
 	font-size: 50px;	
 	font-weight: bold;
 	color: #2c384a;
 }
 
 .title__container h4{
-	margin-top: 40px;
+	margin-top: 25px;
+	text-align: center;
 	font-size: 25px;
 	color: #79818d;
 }
 
+.title__container input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	background: none;
+	border-radius: 5px;
+	color: #6d7682;
+	font-size: 13px;
+	padding: 0px 16px;
+	margin: 50px 14px 0px 14px;
+}
