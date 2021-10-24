@@ -138,16 +138,20 @@ nav{
 	margin-right: 920px;
 }
 
+.main_3_1 {
+	float: left;
+	margin: 0px 1250px 30px 450px;
+}
+
 .main_3_1 img{
 	width: 70px;
 	height: 40px;
-	float: left;
-	margin: 80px 230px 30px 450px;
 }
 
 .main_3_1 h3{
+	width: 270px;
+	height: 20px;
 	font-size: 20px;
-	float: left;
 	margin: 0px 1200px 30px 400px;
 	color: #cf7600;
 }
@@ -157,22 +161,25 @@ nav{
 	height: 50px;
 	text-align: center;
 	font-size: 15px;
-	float: left;
 	margin: 0px 80px 30px 350px;
 	color: #3f495a;
+}
+
+.main_3_2 {
+	float: left;
+	margin: 0px 1000px 30px 250px;
 }
 
 .main_3_2 img{
 	width: 70px;
 	height: 40px;
-	float: left;
-	margin: 80px 230px 30px 0px;
 }
 
 .main_3_2 h3{
+	width: 270px;
+	height: 20px;
 	font-size: 20px;
-	float: left;
-	margin: 0px 0px 30px 0px;
+	margin: 0px 1200px 30px 400px;
 	color: #cf7600;
 }
 
@@ -181,23 +188,26 @@ nav{
 	height: 50px;
 	text-align: center;
 	font-size: 15px;
-	float: left;
-	margin: 0px 80px 30px 0px;
+	margin: 0px 80px 30px 350px;
 	color: #3f495a;
+}
+
+.main_3_3 {
+	float: left;
+	margin-left: 150px; 
 }
 
 
 .main_3_3 img{
 	width: 70px;
 	height: 40px;
-	float: left;
-	margin: 80px 230px 30px 0px;	
 }
 
 .main_3_3 h3{
+	width: 270px;
+	height: 20px;
 	font-size: 20px;
-	float: left;
-	margin: 0px 200px 30px 0px;
+	margin: 0px 1200px 30px 400px;
 	color: #cf7600;
 }
 
@@ -206,24 +216,26 @@ nav{
 	height: 50px;
 	text-align: center;
 	font-size: 15px;
-	float: left;
-	margin: 0px 80px 30px 0px;
+	margin: 0px 80px 30px 350px;
 	color: #3f495a;
 }
 
+.main_3_4 {
+	float: left;
+	margin-left: 150px; 
+}
 
 .main_3_4 img{
 	width: 70px;
 	height: 40px;
-	float: left;
-	margin: 80px 230px 30px 0px;
 }
 
 
 .main_3_4 h3{
+	width: 270px;
+	height: 20px;
 	font-size: 20px;
-	float: left;
-	margin: 0px 200px 30px 0px;
+	margin: 0px 1200px 30px 400px;
 	color: #cf7600;
 }
 
@@ -232,8 +244,7 @@ nav{
 	height: 50px;
 	text-align: center;
 	font-size: 15px;
-	float: left;
-	margin: 0px 80px 30px 0px;
+	margin: 0px 80px 30px 350px;
 	color: #3f495a;
 }
 
