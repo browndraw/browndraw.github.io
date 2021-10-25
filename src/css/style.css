@@ -140,12 +140,13 @@ nav{
 
 .main_3_1 {
 	float: left;
-	margin: 0px 1250px 30px 450px;
+	width: 200px;
 }
 
 .main_3_1 img{
 	width: 70px;
 	height: 40px;
+	margin: 0px 200px 30px 300px;
 }
 
 .main_3_1 h3{
@@ -167,12 +168,14 @@ nav{
 
 .main_3_2 {
 	float: left;
-	margin: 0px 1000px 30px 250px;
+	width: 200px;
 }
 
 .main_3_2 img{
 	width: 70px;
 	height: 40px;
+	margin: 0px 0px 30px 350px;
+
 }
 
 .main_3_2 h3{
@@ -194,13 +197,15 @@ nav{
 
 .main_3_3 {
 	float: left;
-	margin-left: 150px; 
+	width: 200px;
 }
 
 
 .main_3_3 img{
 	width: 70px;
 	height: 40px;
+	margin: 0px 0px 30px 350px;
+
 }
 
 .main_3_3 h3{
@@ -222,12 +227,14 @@ nav{
 
 .main_3_4 {
 	float: left;
-	margin-left: 150px; 
+	width: 200px;
 }
 
 .main_3_4 img{
 	width: 70px;
 	height: 40px;
+	margin: 0px 0px 30px 350px;
+
 }
 
 
