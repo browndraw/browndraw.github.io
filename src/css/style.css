@@ -284,24 +284,6 @@ nav{
 	margin-top: 30px;
 }
 
-.main_4_2 {
-	float: left;
-}
-
-.main_4_2 h3{
-	margin: 30px 0px 0px 100px;
-	font-size: 19px;
-	color: #384354;
-}
-
-.main_4_2 p{
-	width: 800px;
-	height: 60px;
-	margin: 10px 0px 0px 100px;
-	font-size: 15px;
-	color: #384354;
-}
-
 .main_4_3 {
 	float: left;
 }
@@ -330,6 +312,25 @@ nav{
 	padding: 0px 25px;
 	margin: 30px 28px 0px 100px;
 }
+
+.main_4_2 {
+	float: left;
+}
+
+.main_4_2 h3{
+	margin: 30px 0px 0px 500px;
+	font-size: 19px;
+	color: #384354;
+}
+
+.main_4_2 p{
+	width: 800px;
+	height: 60px;
+	margin: 10px 0px 0px 500px;
+	font-size: 15px;
+	color: #384354;
+}
+
 
 .main_5_1 {
 	margin: 250px 0px 80px 900px;
