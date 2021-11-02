@@ -6,6 +6,7 @@ nav{
 	width: 100%;
 	height: 60px;
 	background: #344051;
+	position: fixed;
 }
 
 .logo{
@@ -14,6 +15,14 @@ nav{
 	line-height: 60px;
 	padding-left: 388px;
 	float: left;
+	-webkit-animation: comming 2s ease;
+	-0-animation: comming 2s ease;
+	animation: comming 2s ease;
+}
+
+.main{
+	width: 100%;
+	height: 100%;
 }
 
 .menu{
@@ -28,12 +37,16 @@ nav{
 	font-size: 16px;
 	margin-right: 40px;
 	text-transform: uppercase;
+	-webkit-animation: topshift 0.4s ease forwards;
+	-0-animation: topshift 0.4s ease forwards;
+	animation: topshift 0.4s ease forwards;
+	opacity: 0;
 }
 
 .main_1 {
 	width: 100%;
 	background: url(../img/boy.png) 90% 100%/auto 85% no-repeat , url(../img/bg.jpg) center/cover no-repeat;
-	height: calc(100% - 60px);
+	height: 100%;
 }
 
 .title__container {
@@ -41,6 +54,13 @@ nav{
 	margin: 432px 0px 0px 404px;
 	color: #2c384a;
 	text-align: center;
+	opacity: 0;
+	-webkit-animation: titlemove 1s ease forwards;
+	-0-animation: titlemove 1s ease forwards;
+	animation: titlemove 1s ease forwards;
+	-webkit-animation-delay: titlemove 2.4s;
+	-0-animation-delay: titlemove 2.4s;
+	animation-delay: 2.4s;
 }
 
 .title__container h1{ 
@@ -66,12 +86,116 @@ nav{
 	margin: 50px 28px 0px 14px;
 }
 
+.menu li a{
+	transition: all 0.1S;
+	color: white;
+	transform: scale(1); 
+	display: inline block;
+}
+
+.menu li a:visited{
+	color: white;
+}
+
+.menu li a:hover{
+	color: #e98706;
+}
+
+.menu li a:active{
+	transform: scale(1.1);
+}
+
+.title__container input{
+	transition: all 0.2s;
+	transform: scale(1);
+}
+
+.title__container input:hover{
+	background: #144051;
+	color: white;
+}
+
+.title__container input:active{
+	transform: scale(1.1);
+}
+
+@keyframes comming{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+@keyframes topshift{
+	from{
+		opacity: 0;
+		margin-top: -80px;
+	}
+	to{
+		opacity: 1;
+		margin-top: 0px;
+	}
+}
+
+.menu li:nth-child(2) {
+	animation-delay: 0.4s;
+}
+
+.menu li:nth-child(3) {
+	animation-delay: 0.8s;
+}
+
+.menu li:nth-child(4) {
+	animation-delay: 1.2s;
+}
+
+.menu li:nth-child(5) {
+	animation-delay: 1.6s;
+}
+
+.menu li:nth-child(6) {
+	animation-delay: 2s;
+}
+
+@keyframes titlemove{
+	from{
+		opacity: 0;
+		margin-left: 500px;
+	}
+	to{
+		opacity: 1;
+		margin-left: : 404px;
+	}
+}
+
+.main_2 {
+	width: 100%;
+	height: 100%;
+}
+
 .main_2 h2{
 	margin: 40px 870px 0px 850px;
 	text-align: center;
 	font-size: 22px;
 	margin-bottom: 30px;
 	color: #263244;
+	opacity: 0;
+	-webkit-animation: move_1 1.5s ease forwards;
+	-0-animation: move_1 1.5s ease forwards;
+	animation: move_1 1.5s ease forwards;
+}
+
+@keyframes move_1{
+	from{
+		opacity: 0;
+		margin-left: 900px;
+	}
+	to{
+		opacity: 1;
+		margin-left: : 850px;
+	}
 }
 
 .main_2 img{
@@ -80,6 +204,13 @@ nav{
 	margin-left: 900px;
 	margin-right: 920px;
 	margin-bottom: 50px;
+}
+
+.main_2_1{
+	opacity: 0;
+	-webkit-animation: move_2 2s ease forwards;
+	-0-animation: move_2 2s ease forwards;
+	animation: move_2 2s ease forwards;
 }
 
 .main_2_1 img {
@@ -99,6 +230,31 @@ nav{
 	color: #3f495a;
 }
 
+.main_2_1 {
+	transition: all 0.2s;
+	transform: scale(1);
+}
+
+.main_2_1 a:hover{
+	background: #144051;
+	color: white;
+}
+
+.main_2_1 a:active{
+	transform: scale(1.1);
+}
+
+@keyframes move_2{
+	from{
+		opacity: 0;
+		margin-left: 900px;
+	}
+	to{
+		opacity: 1;
+		margin-left: 300px;
+	}
+}
+
 .main_2_2 input{
 	height: 40px;
 	text-align: center;
@@ -112,6 +268,20 @@ nav{
 	margin-left: 890px;
 }	
 
+.main_2_2 input{
+	transition: all 0.2s;
+	transform: scale(1);
+}
+
+.main_2_2 input:hover{
+	background: #144051;
+	color: white;
+}
+
+.main_2_2 input:active{
+	transform: scale(1.1);
+}
+
 .main_2_2 img{
 	margin: 62px 28px 0px -175px;
 	height: 15px;
@@ -121,7 +291,7 @@ nav{
 .main_3 {
 	width: 100%;
 	background: url(../img/fon.jpg) center/cover no-repeat;
-	height: calc(100% - 500px);
+	height: 100%;
 }
 
 .main_3 h2{
