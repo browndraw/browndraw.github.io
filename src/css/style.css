@@ -86,95 +86,6 @@ nav{
 	margin: 50px 28px 0px 14px;
 }
 
-.menu li a{
-	transition: all 0.1S;
-	color: white;
-	transform: scale(1); 
-	display: inline block;
-}
-
-.menu li a:visited{
-	color: white;
-}
-
-.menu li a:hover{
-	color: #e98706;
-}
-
-.menu li a:active{
-	transform: scale(1.1);
-}
-
-.title__container input{
-	transition: all 0.2s;
-	transform: scale(1);
-}
-
-.title__container input:hover{
-	background: #144051;
-	color: white;
-}
-
-.title__container input:active{
-	transform: scale(1.1);
-}
-
-@keyframes comming{
-	from{
-		opacity: 0;
-	}
-	to{
-		opacity: 1;
-	}
-}
-
-@keyframes topshift{
-	from{
-		opacity: 0;
-		margin-top: -80px;
-	}
-	to{
-		opacity: 1;
-		margin-top: 0px;
-	}
-}
-
-.menu li:nth-child(2) {
-	animation-delay: 0.4s;
-}
-
-.menu li:nth-child(3) {
-	animation-delay: 0.8s;
-}
-
-.menu li:nth-child(4) {
-	animation-delay: 1.2s;
-}
-
-.menu li:nth-child(5) {
-	animation-delay: 1.6s;
-}
-
-.menu li:nth-child(6) {
-	animation-delay: 2s;
-}
-
-@keyframes titlemove{
-	from{
-		opacity: 0;
-		margin-left: 500px;
-	}
-	to{
-		opacity: 1;
-		margin-left: : 404px;
-	}
-}
-
-.main_2 {
-	width: 100%;
-	height: 100%;
-}
-
 .main_2 h2{
 	margin: 40px 870px 0px 850px;
 	text-align: center;
@@ -187,17 +98,6 @@ nav{
 	animation: move_1 1.5s ease forwards;
 }
 
-@keyframes move_1{
-	from{
-		opacity: 0;
-		margin-left: 900px;
-	}
-	to{
-		opacity: 1;
-		margin-left: : 850px;
-	}
-}
-
 .main_2 img{
 	width: 80px;
 	height: 3px;
@@ -206,53 +106,31 @@ nav{
 	margin-bottom: 50px;
 }
 
+
 .main_2_1{
 	opacity: 0;
 	-webkit-animation: move_2 2s ease forwards;
 	-0-animation: move_2 2s ease forwards;
 	animation: move_2 2s ease forwards;
+	-webkit-animation display: move_2 2.2s ease forwards;
+	-0-animation display: move_2 2.2s ease forwards;
+	animation display: move_2 2.2s ease forwards;
 }
 
 .main_2_1 img {
 	width: 150px;
 	height: 150px;
-	margin-left: 870px;
-	margin-right: 870px;
+	margin-left: 670px;
 	border-radius: 50px;
 }
 
 .main_2_1 p{
-	margin-top: 40px;
-	margin-left: 300px;
-	margin-right: 300px;
+	margin-top: 30px;
+	margin-left: 200px;
+	margin-right: 250px;
 	font-size: 15px;
 	text-align: left;
 	color: #3f495a;
-}
-
-.main_2_1 {
-	transition: all 0.2s;
-	transform: scale(1);
-}
-
-.main_2_1 a:hover{
-	background: #144051;
-	color: white;
-}
-
-.main_2_1 a:active{
-	transform: scale(1.1);
-}
-
-@keyframes move_2{
-	from{
-		opacity: 0;
-		margin-left: 900px;
-	}
-	to{
-		opacity: 1;
-		margin-left: 300px;
-	}
 }
 
 .main_2_2 input{
@@ -266,26 +144,27 @@ nav{
 	padding: 0px 25px;
 	margin: 50px 28px 0px 14px;
 	margin-left: 890px;
+	opacity: 0;
+	-webkit-animation: resize 1s ease forwards;
+	-0-animation: resize 1s ease forwards;
+	animation: resize 1s ease forwards;
+	-webkit-animation-delay: resize 2.4s;
+	-0-animation-delay: resize 2.4s;
+	animation-delay: resize 2.4s;
+}
 }	
 
-.main_2_2 input{
-	transition: all 0.2s;
-	transform: scale(1);
-}
-
-.main_2_2 input:hover{
-	background: #144051;
-	color: white;
-}
-
-.main_2_2 input:active{
-	transform: scale(1.1);
-}
-
 .main_2_2 img{
-	margin: 62px 28px 0px -175px;
+	margin: 82px 28px 0px -175px;
 	height: 15px;
 	width: 15px;
+	opacity: 0;
+	-webkit-animation: resize 1s ease forwards;
+	-0-animation: resize 1s ease forwards;
+	animation: resize 1s ease forwards;
+	-webkit-animation-delay: resize 2.4s;
+	-0-animation-delay: resize 2.4s;
+	animation-delay: resize 2.4s;
 }
 
 .main_3 {
@@ -300,6 +179,9 @@ nav{
 	text-align: center;
 	font-size: 22px;
 	color: #263244;
+	animation-name: booster;
+	animation-duration: 1.5s;
+	animation-delay: .5s;
 }
 
 .main_3 img{
@@ -324,7 +206,7 @@ nav{
 	width: 270px;
 	height: 20px;
 	font-size: 20px;
-	margin: 0px 0px 30px 300px;
+	margin: 0px 0px 30px 320px;
 	color: #cf7600;
 }
 
