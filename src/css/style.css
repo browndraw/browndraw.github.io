@@ -15,9 +15,6 @@ nav{
 	line-height: 60px;
 	padding-left: 388px;
 	float: left;
-	-webkit-animation: comming 2s ease;
-	-0-animation: comming 2s ease;
-	animation: comming 2s ease;
 }
 
 .main{
@@ -37,10 +34,6 @@ nav{
 	font-size: 16px;
 	margin-right: 40px;
 	text-transform: uppercase;
-	-webkit-animation: topshift 0.4s ease forwards;
-	-0-animation: topshift 0.4s ease forwards;
-	animation: topshift 0.4s ease forwards;
-	opacity: 0;
 }
 
 .main_1 {
@@ -54,13 +47,6 @@ nav{
 	margin: 432px 0px 0px 404px;
 	color: #2c384a;
 	text-align: center;
-	opacity: 0;
-	-webkit-animation: titlemove 1s ease forwards;
-	-0-animation: titlemove 1s ease forwards;
-	animation: titlemove 1s ease forwards;
-	-webkit-animation-delay: titlemove 2.4s;
-	-0-animation-delay: titlemove 2.4s;
-	animation-delay: 2.4s;
 }
 
 .title__container h1{ 
@@ -92,10 +78,6 @@ nav{
 	font-size: 22px;
 	margin-bottom: 30px;
 	color: #263244;
-	opacity: 0;
-	-webkit-animation: move_1 1.5s ease forwards;
-	-0-animation: move_1 1.5s ease forwards;
-	animation: move_1 1.5s ease forwards;
 }
 
 .main_2 img{
@@ -104,17 +86,6 @@ nav{
 	margin-left: 900px;
 	margin-right: 920px;
 	margin-bottom: 50px;
-}
-
-
-.main_2_1{
-	opacity: 0;
-	-webkit-animation: move_2 2s ease forwards;
-	-0-animation: move_2 2s ease forwards;
-	animation: move_2 2s ease forwards;
-	-webkit-animation display: move_2 2.2s ease forwards;
-	-0-animation display: move_2 2.2s ease forwards;
-	animation display: move_2 2.2s ease forwards;
 }
 
 .main_2_1 img {
@@ -144,27 +115,12 @@ nav{
 	padding: 0px 25px;
 	margin: 50px 28px 0px 14px;
 	margin-left: 890px;
-	opacity: 0;
-	-webkit-animation: resize 1s ease forwards;
-	-0-animation: resize 1s ease forwards;
-	animation: resize 1s ease forwards;
-	-webkit-animation-delay: resize 2.4s;
-	-0-animation-delay: resize 2.4s;
-	animation-delay: resize 2.4s;
-}
 }	
 
 .main_2_2 img{
 	margin: 82px 28px 0px -175px;
 	height: 15px;
 	width: 15px;
-	opacity: 0;
-	-webkit-animation: resize 1s ease forwards;
-	-0-animation: resize 1s ease forwards;
-	animation: resize 1s ease forwards;
-	-webkit-animation-delay: resize 2.4s;
-	-0-animation-delay: resize 2.4s;
-	animation-delay: resize 2.4s;
 }
 
 .main_3 {
@@ -179,9 +135,6 @@ nav{
 	text-align: center;
 	font-size: 22px;
 	color: #263244;
-	animation-name: booster;
-	animation-duration: 1.5s;
-	animation-delay: .5s;
 }
 
 .main_3 img{

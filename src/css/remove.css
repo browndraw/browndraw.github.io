@@ -1,34 +1,8 @@
-.menu li a{
-	transition: all 0.1S;
-	color: white;
-	transform: scale(1); 
-	display: inline block;
-}
-
-.menu li a:visited{
-	color: white;
-}
-
-.menu li a:hover{
-	color: #e98706;
-}
-
-.menu li a:active{
-	transform: scale(1.1);
-}
-
-.title__container input{
-	transition: all 0.2s;
-	transform: scale(1);
-}
-
-.title__container input:hover{
-	background: #144051;
-	color: white;
-}
-
-.title__container input:active{
-	transform: scale(1.1);
+.logo{
+	animation-name: comming;
+	-webkit-animation: comming 2s ease;
+	-0-animation: comming 2s ease;
+	animation: comming 2s ease;
 }
 
 @keyframes comming{
@@ -40,14 +14,23 @@
 	}
 }
 
-@keyframes topshift{
+.menu li{
+	animation-name: mymove;
+	-webkit-animation: mymove 1s ease forwards; 
+	-0-animation: mymove 1s ease forwards;
+	animation: mymove 1s ease forwards;
+	-webkit-animation-delay: mymove 2.5s ease forwards;
+	-0-animation-delay: mymove 2.5s ease forwards;
+	animation-delay: mymove 2.5s ease forwards;
+}
+
+@keyframes mymove{
 	from{
 		opacity: 0;
-		margin-top: -80px;
+		margin-left: 200px;
 	}
 	to{
-		opacity: 1;
-		margin-top: 0px;
+		opacity: 432px;
 	}
 }
 
@@ -71,6 +54,36 @@
 	animation-delay: 2s;
 }
 
+.menu li a{
+	color: white;
+	display: inline block;		
+	transition: all .1s;
+	transform: scale(1); 
+}
+
+.menu li a:visited{
+	color: white;
+}
+
+.menu li a:hover{
+	color: #e98706;
+}
+
+.menu li a:active{
+	transform: scale(1.1);
+}
+
+.title__container{
+	animation-name: titlemove;
+	opacity: 0;
+	-webkit-animation: titlemove 1s ease forwards;
+	-0-animation: titlemove 1s ease forwards;
+	animation: titlemove 1s ease forwards;
+	-webkit-animation-delay: titlemove 2.4s;
+	-0-animation-delay: titlemove 2.4s ease forwards;
+	animation-delay: titlemove 2.4s ease forwards;
+}
+
 @keyframes titlemove{
 	from{
 		opacity: 0;
@@ -82,7 +95,29 @@
 	}
 }
 
-@keyframes move_1{
+.title__container input{
+	transition: all 0.2s;
+	transform: scale(1);
+}
+
+.title__container input:hover{
+	color: white;
+	background: #144051;
+}
+
+.title__container input:active{
+	transform: scale(1.1);
+}
+
+.main_2 h2{
+	animation-name: myanim;
+	opacity: 0;
+	-webkit-animation: myanim 1.5s ease forwards;
+	-0-animation: myanim 1.5s ease forwards;
+	animation: myanim 1.5s ease forwards;
+}
+
+@keyframes myanim{
 	from{
 		opacity: 0;
 		margin-left: 900px;
@@ -93,21 +128,18 @@
 	}
 }
 
-.main_2_1 {
-	transition: all 0.2s;
-	transform: scale(1);
+.main_2_1{
+	animation-name: bubble;
+	opacity: 0;
+	-webkit-animation: bubble 2s ease forwards;
+	-0-animation: bubble 2s ease forwards;
+	animation: bubble 2s ease forwards;
+	-webkit-animation display: bubble 2.5s ease forwards;
+	-0-animation display: bubble 2.5s ease forwards;
+	animation display: bubble 2.5s ease forwards;
 }
 
-.main_2_1 a:hover{
-	background: #144051;
-	color: white;
-}
-
-.main_2_1 a:active{
-	transform: scale(1.1);
-}
-
-@keyframes move_2{
+@keyframes bubble{
 	from{
 		opacity: 0;
 		margin-left: 900px;
@@ -115,6 +147,42 @@
 	to{
 		opacity: 1;
 		margin-left: 200px;
+	}
+}
+
+.main_2_1 {
+	transition: all 0.2s;
+	transform: scale(1);
+}
+
+.main_2_1 a:hover{
+	color: white;	
+	background: #144051;
+}
+
+.main_2_1 a:active{
+	transform: scale(1.1);
+}
+
+.main_2_2 input{
+	animation-name: resize;
+	opacity: 0;
+	-webkit-animation: resize 1s ease forwards;
+	-0-animation: resize 1s ease forwards;
+	animation: resize 1s ease forwards;
+	-webkit-animation-delay: resize 2.4s;
+	-0-animation-delay: resize 2.4s;
+	animation-delay: resize 2.4s;
+}	
+
+@keyframes resize{
+	from{
+		opacity: 0;
+		margin-left: 1000px;
+	}
+	to{
+		opacity: 1;
+		margin-left: 890px;
 	}
 }
 
@@ -132,18 +200,18 @@
 	transform: scale(1.1);
 }
 
-@keyframes resize{
-	from{
-		opacity: 0;
-		margin-left: 1000px;
-	}
-	to{
-		opacity: 1;
-		margin-left: 890px;
-	}
+.main_2_2 img{
+	animation-name: values;
+	opacity: 0;
+	-webkit-animation: values 1s ease forwards;
+	-0-animation: values 1s ease forwards;
+	animation: values 1s ease forwards;
+	-webkit-animation-delay: values 2.5s;
+	-0-animation-delay: values 2.5s;
+	animation-delay: values 2.5s;
 }
 
-@keyframes booster{
+@keyframes values{
 	from{
 		opacity: 0;
 		margin-left: 900px;
@@ -154,63 +222,28 @@
 	}
 }
 
-.main_3_1: nth-child(2) {
-	animation-delay: 0.5s;
+.main_3 h2{
+	animation-name: fadeln;
+	opacity: 0;
+	-webkit-animation: fadeln 1s ease forwards;
+	-0-animation: fadeln 1s ease forwards;
+	animation: fadeln 1s ease forwards;
+	-webkit-animation-duration: fadeln 1.5s;
+	-0-animation-duration: fadeln 1.5s;
+	animation-duration: fadeln 1.5s;
+	-webkit-animation-delay: fadeln .5s;
+	-0-animation-delay: fadeln .5s;
+	animation-delay: fadeln .5s;
 }
 
-@keyframes .main_3_1 {
+@keyframes fadeln{
 	from{
 		opacity: 0;
-		margin-left: 100px;
+		margin-left: 900px;
 	}
 	to{
 		opacity: 1;
-		margin-left: 380px;
-	}
-}
-
-.main_3_2: nth-child(3) {
-	animation-delay: 1s;
-}
-
-@keyframes .main_3_2 {
-	from{
-		opacity: 0;
-		margin-left: 100px;
-	}
-	to{
-		opacity: 1;
-		margin-left: 450px;
-	}
-}
-
-.main_3_3: nth-child(4) {
-	animation-delay: 1.5s;
-}
-
-@keyframes .main_3_3 {
-	from{
-		opacity: 0;
-		margin-left: 100px;
-	}
-	to{
-		opacity: 1;
-		margin-left: 610px;
-	}
-}
-
-.main_3_4: nth-child(5) {
-	animation-delay: 2s;
-}
-
-@keyframes .main_3_1 {
-	from{
-		opacity: 0;
-		margin-left: 100px;
-	}
-	to{
-		opacity: 1;
-		margin-left: 800px;
+		margin-left: 870px;
 	}
 }
 
