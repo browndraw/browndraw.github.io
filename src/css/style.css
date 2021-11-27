@@ -81,7 +81,7 @@ nav{
 }
 
 .main_2 img{
-	width: 80px;
+	width: 100px;
 	height: 3px;
 	margin-left: 900px;
 	margin-right: 920px;
@@ -91,7 +91,7 @@ nav{
 .main_2_1 img {
 	width: 150px;
 	height: 150px;
-	margin-left: 670px;
+	margin-left: 690px;
 	border-radius: 50px;
 }
 
@@ -118,7 +118,7 @@ nav{
 }	
 
 .main_2_2 img{
-	margin: 82px 28px 0px -175px;
+	margin: 62px 28px 0px -175px;
 	height: 15px;
 	width: 15px;
 }
@@ -137,7 +137,7 @@ nav{
 	color: #263244;
 }
 
-.main_3 img{
+.main_3_0 img{
 	width: 100px;
 	height: 3px;
 	margin-left: 920px;

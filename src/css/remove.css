@@ -16,12 +16,12 @@
 
 .menu li{
 	animation-name: mymove;
-	-webkit-animation: mymove 1s ease forwards; 
-	-0-animation: mymove 1s ease forwards;
-	animation: mymove 1s ease forwards;
-	-webkit-animation-delay: mymove 2.5s ease forwards;
-	-0-animation-delay: mymove 2.5s ease forwards;
-	animation-delay: mymove 2.5s ease forwards;
+	-webkit-animation: mymove 1s forwards; 
+	-0-animation: mymove 1s forwards;
+	animation: mymove 1s forwards;
+	-webkit-animation-delay: mymove 2.5s forwards;
+	-0-animation-delay: mymove 2.5s forwards;
+	animation-delay: mymove 2.5s forwards;
 }
 
 @keyframes mymove{
@@ -56,9 +56,8 @@
 
 .menu li a{
 	color: white;
-	display: inline block;		
-	transition: all .1s;
-	transform: scale(1); 
+	display: inline-block;
+	transition: all 0.1s;
 }
 
 .menu li a:visited{
@@ -117,14 +116,36 @@
 	animation: myanim 1.5s ease forwards;
 }
 
+.main_2 img{
+	animation-name: myanime;
+	opacity: 0;
+	-webkit-animation: myanime 1.5s ease forwards;
+	-0-animation: myanime 1.5s ease forwards;
+	animation: myanime 1.5s ease forwards;
+}
+
+
 @keyframes myanim{
 	from{
 		opacity: 0;
-		margin-left: 900px;
+		margin-left: 500px;	
 	}
+
 	to{
 		opacity: 1;
-		margin-left: 850px;
+		margin-left: 900px;
+	}
+}
+
+@keyframes myanime{
+	from{
+		opacity: 0;
+		margin-left: 500px;	
+	}
+
+	to{
+		opacity: 1;
+		margin-left: 915px;
 	}
 }
 
@@ -142,8 +163,9 @@
 @keyframes bubble{
 	from{
 		opacity: 0;
-		margin-left: 900px;
+		margin-left: 0px;
 	}
+
 	to{
 		opacity: 1;
 		margin-left: 200px;
@@ -200,50 +222,45 @@
 	transform: scale(1.1);
 }
 
-.main_2_2 img{
-	animation-name: values;
-	opacity: 0;
-	-webkit-animation: values 1s ease forwards;
-	-0-animation: values 1s ease forwards;
-	animation: values 1s ease forwards;
-	-webkit-animation-delay: values 2.5s;
-	-0-animation-delay: values 2.5s;
-	animation-delay: values 2.5s;
-}
-
-@keyframes values{
-	from{
-		opacity: 0;
-		margin-left: 900px;
-	}
-	to{
-		opacity: 1;
-		margin-left: 870px;
-	}
-}
-
 .main_3 h2{
 	animation-name: fadeln;
 	opacity: 0;
-	-webkit-animation: fadeln 1s ease forwards;
-	-0-animation: fadeln 1s ease forwards;
-	animation: fadeln 1s ease forwards;
-	-webkit-animation-duration: fadeln 1.5s;
-	-0-animation-duration: fadeln 1.5s;
-	animation-duration: fadeln 1.5s;
-	-webkit-animation-delay: fadeln .5s;
-	-0-animation-delay: fadeln .5s;
-	animation-delay: fadeln .5s;
+	-webkit-animation: fadeln 1s forwards;
+	-0-animation: fadeln 1s forwards;
+	animation: fadeln 1s forwards;
+	-webkit-animation-delay: fadeln .5s forwards;
+	-0-animation-delay: fadeln .5s forwards;
+	animation-delay: fadeln .5s forwards;
+}
+
+.main_3 img{
+	animation-name: fadelne;
+	opacity: 0;
+	-webkit-animation: fadelne 1.5s forwards;
+	-0-animation: fadelne 1.5s forwards;
+	animation: fadelne 1.5s forwards;
 }
 
 @keyframes fadeln{
 	from{
 		opacity: 0;
-		margin-left: 900px;
+		margin-right: 0px;
 	}
+	
 	to{
 		opacity: 1;
 		margin-left: 870px;
 	}
 }
 
+@keyframes fadelne{
+	from{
+		opacity: 0;
+		margin-right: 0px;	
+	}
+
+	to{
+		opacity: 1;
+		margin-left: 910px;
+	}
+}
