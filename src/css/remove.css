@@ -19,18 +19,20 @@
 	-webkit-animation: mymove 1s forwards; 
 	-0-animation: mymove 1s forwards;
 	animation: mymove 1s forwards;
-	-webkit-animation-delay: mymove 2.5s forwards;
-	-0-animation-delay: mymove 2.5s forwards;
-	animation-delay: mymove 2.5s forwards;
+	-webkit-animation-delay: mymove 2.5s ease forwards;
+	-0-animation-delay: mymove 2.5s ease forwards;
+	animation-delay: mymove 2.5s ease forwards;
 }
 
 @keyframes mymove{
 	from{
 		opacity: 0;
-		margin-left: 200px;
+		margin-left: -50px;
 	}
+
 	to{
-		opacity: 432px;
+		opacity: 1;
+		margin-left: 0px;
 	}
 }
 
@@ -239,6 +241,9 @@
 	-webkit-animation: fadelne 1.5s forwards;
 	-0-animation: fadelne 1.5s forwards;
 	animation: fadelne 1.5s forwards;
+	-webkit-animation-delay: fadelne 1.5s forwards;
+	-0-animation-delay: fadelne 1.5s forwards;
+	animation-delay: fadelne 1.5s forwards;
 }
 
 @keyframes fadeln{
@@ -256,11 +261,33 @@
 @keyframes fadelne{
 	from{
 		opacity: 0;
-		margin-right: 0px;	
+		margin-right: -50px;	
 	}
 
 	to{
 		opacity: 1;
-		margin-left: 910px;
+		margin-right: 650px;
+	}
+}
+
+.main_3_1 {
+	animation-name: myhave;
+	-webkit-animation: myhave 1s forwards; 
+	-0-animation: myhave 1s forwards;
+	animation: myhave 1s forwards;
+	-webkit-animation-delay: myhave 2.5s ease forwards;
+	-0-animation-delay: myhave 2.5s ease forwards;
+	animation-delay: myhave 2.5s ease forwards;
+}
+
+@keyframes myhave{
+	from{
+		opacity: 0;
+		margin-left: -250px;
+	}
+
+	to{
+		opacity: 1;
+		margin-left: 50px;
 	}
 }
